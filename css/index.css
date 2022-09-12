@@ -1,5 +1,209 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  padding: 0 15px;
+}
+
 header .header__container {
   max-width: 1200px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+header .header__container_logo a {
+  text-decoration: none;
+}
+
+header .header__container_logo a img {
+  max-width: 70px;
+  max-height: 56px;
+}
+
+header .header__container_title {
+  font-size: 49px;
+  font-style: normal bold;
+  font: normal bold 49px "Josefin Sans", Arial, sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  line-height: 53px;
+}
+
+main {
+  padding: 0 15px;
+}
+
+main .main__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 230px 0;
+}
+
+main .main__container_title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 58px;
+  font-size: 50px;
+  color: #2d0d57;
+  text-decoration: none;
+  text-align: center;
+}
+
+.service {
+  padding: 0 15px;
+}
+
+.service__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service__container_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 38px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 50px;
+}
+
+.service__container_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0 30px;
+  margin-bottom: 50px;
+}
+
+.service__container_main .service__content {
+  max-width: 570px;
+}
+
+.service__container_main .service__content_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: left;
+  color: #333333;
+}
+
+.service__container_main .service__content_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3b393b;
+  text-align: left;
+}
+
+.service__container_main img {
+  max-width: 517px;
+  width: 100%;
+}
+
+.service__container_main:last-of-type {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.service__container_main:last-of-type img {
+  max-width: 370px;
+}
+
+.footer {
+  padding: 0 15px;
+}
+
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__container_about img {
+  max-width: 60px;
+}
+
+.footer__container_about .footer__about_inn,
+.footer__container_about .footer__about_site {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  color: #333333;
+}
+
+.footer__container_contacts {
+  max-width: 350px;
+  width: 100%;
+}
+
+.footer__container_contacts .footer__contacts_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__container_contacts .footer__contacts_item svg {
+  max-width: 24px;
+  margin-right: 20px;
+}
+
+.footer__container_contacts .footer__contacts_item a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  color: #333333;
+}
+
+.footer__container_contacts .footer__contacts_item a span {
+  font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=index.css.map */
